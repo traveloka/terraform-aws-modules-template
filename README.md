@@ -4,9 +4,18 @@ This repository is a guide for our terraform module (and all repository in gener
 
 **We write this module not only as an example but also as an explanation of how to implement this other modules**
 
-## Prerequisites
+## Table of Content
 
----
+- [Prerequisites](#Prerequisites)
+- [Quick Started](#Quick-Started)
+- [Variables](#Variables)
+- [Dependencies](#Dependencies)
+- [Contributing](#Contributing)
+- [Contributor](#Contributor)
+- [License](#License)
+- [Acknowledgments](#Acknowledgments)
+
+## Prerequisites
 
 Before jumping to use this module, you need to know standard knowledge of markdown language syntax.
 
@@ -18,8 +27,6 @@ Because specifically it explain about terraform modules, you also need to instal
 - [awsudo](https://github.com/makethunder/awsudo) to assume role in AWS
 
 ## Quick Started
-
----
 
 After module's code set and go, complete it with well written documentation. Start with a user friendly `README`. What is the content ? At least it explain.
 
@@ -55,8 +62,6 @@ This will add
 - Security Group Rule
 
 ## Variables
-
----
 
 Every terraform modules have variable and `README` is a good place to explain and help other developers not opening the `variables.tf`. e.g:
 
@@ -135,7 +140,7 @@ Please also see our `CHANGELOG` document in this repository and see more detail
 
 Contribution can come from not only code, but also idea, discussion, etc. You can explain how to contribute to this project in `CONTRIBUTION`. Please see our example of `CONTRIBUTION` document
 
-## Authors and Contributor
+## Contributor
 
 For question, issue, and pull request you can contact these awesome people
 

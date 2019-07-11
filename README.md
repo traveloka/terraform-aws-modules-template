@@ -31,8 +31,11 @@ Because specifically it explain about terraform modules, you also need to instal
 
 - [Terraform](https://releases.hashicorp.com/terraform/). To this date, I recommend at latest version `0.11.x` and not recommend `0.12.x` or above
 - [awsudo](https://github.com/makethunder/awsudo) to assume role in AWS
-- Provider [aws] version `1.60.0`. We are not recommending usage of `2.0.0` and above
-- Provider [null] version `1.0.0`
+
+Terraform Providers. You don't need to download or install anything. Just make sure this is the version you use in code if it is used
+
+- Provider [aws](https://www.terraform.io/docs/providers/aws/index.html) version `1.60.0`. We are not recommending usage of `2.0.0` and above.
+- Provider [random](https://www.terraform.io/docs/providers/random/index.html) version `1.0.0`.
 
 ## Quick Start
 

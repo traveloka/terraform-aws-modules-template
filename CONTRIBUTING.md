@@ -47,5 +47,12 @@ Before start contributing, it is required for you to:
 - Execute `terraform fmt` to rewrite Terraform configuration files to a canonical format and style.
 
 All good? Then you are ready! Here are the steps you can follow to submit a PR:
-1. Create your own fork of the repository
-2. 
+1. Create your own fork of the repository.
+2. Create a branch with a descriptive name. A good branch name would be (where issue #123 is the ticket you're working on): `123-fix-docs-typo`.
+3. Do the changes there, don't forget to execute `terraform fmt`.
+4. Commit and push the changes to your origin.
+5. Create PR from your origin branch to the upstream master.
+6. Wait for maintainer to review your code.
+
+
+## ***Happy Contributing!***

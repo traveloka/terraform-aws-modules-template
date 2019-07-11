@@ -1,6 +1,10 @@
-# Terraform Aws Modules Template
+# Terraform AWS Modules Template
 
-<a href="https://github.com/traveloka/terraform-aws-modules-template/releases"><img alt="version" src="https://img.shields.io/github/tag/traveloka/terraform-aws-modules-template.svg"></a> <a href="https://github.com/traveloka/terraform-aws-modules-template/releases"><img alt="last commit" src="https://img.shields.io/github/last-commit/traveloka/terraform-aws-modules-template.svg"></a> <a href="https://github.com/traveloka/terraform-aws-modules-template/issues"><img alt="issue" src="https://img.shields.io/github/issues/traveloka/terraform-aws-modules-template.svg"></a> <a href="https://github.com/traveloka/terraform-aws-modules-template/pulls"><img alt="pull request" src="https://img.shields.io/github/issues-pr/traveloka/terraform-aws-modules-template.svg"></a> <a href="https://github.com/traveloka/terraform-aws-modules-template/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/traveloka/terraform-aws-modules-template.svg"></a>
+<a href="https://github.com/traveloka/terraform-aws-modules-template/releases"><img alt="release" src="https://img.shields.io/github/tag/traveloka/terraform-aws-modules-template.svg"></a>
+<a href="https://github.com/traveloka/terraform-aws-modules-template/commits/master"><img alt="last commit" src="https://img.shields.io/github/last-commit/traveloka/terraform-aws-modules-template.svg"></a>
+<a href="https://github.com/traveloka/terraform-aws-modules-template/issues"><img alt="issues" src="https://img.shields.io/github/issues/traveloka/terraform-aws-modules-template.svg"></a>
+<a href="https://github.com/traveloka/terraform-aws-modules-template/pulls"><img alt="pull requests" src="https://img.shields.io/github/issues-pr/traveloka/terraform-aws-modules-template.svg"></a>
+<a href="https://github.com/traveloka/terraform-aws-modules-template/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/traveloka/terraform-aws-modules-template.svg"></a>
 
 This repository is a guide for our terraform module (and all repository in general) to build user friendly modules that easy to understand and self explaining. We hope this can help our team nurture opensource culture and create more welcoming to contribution. This template is not strict standard and improvisation beyond this template might produce more awesome modules.
 
@@ -9,7 +13,7 @@ This repository is a guide for our terraform module (and all repository in gener
 ## Table of Content
 
 - [Prerequisites](#Prerequisites)
-- [Quick Started](#Quick-Started)
+- [Quick Start](#Quick-Start)
 - [Variables](#Variables)
 - [Dependencies](#Dependencies)
 - [Contributing](#Contributing)
@@ -27,8 +31,10 @@ Because specifically it explain about terraform modules, you also need to instal
 
 - [Terraform](https://releases.hashicorp.com/terraform/). To this date, I recommend at latest version `0.11.x` and not recommend `0.12.x` or above
 - [awsudo](https://github.com/makethunder/awsudo) to assume role in AWS
+- Provider [aws] version `1.60.0`. We are not recommending usage of `2.0.0` and above
+- Provider [null] version `1.0.0`
 
-## Quick Started
+## Quick Start
 
 After module's code set and go, complete it with well written documentation. Start with a user friendly `README`. What is the content ? At least it explain.
 
@@ -126,6 +132,8 @@ This project need dependencies:
 ## Versioning
 
 This section can inform what the latest stable version that you recommend for any different case, latest change log that happen, and a link to `CHANGELOG` or `RELEASE`. It really can help others to quickly your latest work. e.g:
+
+We use [SemVer](https://semver.org/) for our versioning
 
 **Latest stable version** `v0.1.1`, 7th July 2019
 

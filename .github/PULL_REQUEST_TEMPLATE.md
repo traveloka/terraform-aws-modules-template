@@ -18,7 +18,7 @@ Fixes #0000
 
 ***
 
-Release note for [CHANGELOG](https://github.com/traveloka/terraform-aws-resource-naming/blob/master/CHANGELOG.md):
+Release note for [CHANGELOG](https://github.com/traveloka/terraform-aws-modules-template/blob/master/CHANGELOG.md):
 <!--
 If the changes are not user facing, just write "NONE" in the release-note block below.
 -->

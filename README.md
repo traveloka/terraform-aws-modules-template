@@ -1,5 +1,7 @@
 # Terraform Aws Modules Template
 
+<a href="https://github.com/traveloka/terraform-aws-modules-template/releases"><img alt="version" src="https://img.shields.io/github/tag/traveloka/terraform-aws-modules-template.svg"></a> <a href="https://github.com/traveloka/terraform-aws-modules-template/releases"><img alt="last commit" src="https://img.shields.io/github/last-commit/traveloka/terraform-aws-modules-template.svg"></a> <a href="https://github.com/traveloka/terraform-aws-modules-template/issues"><img alt="issue" src="https://img.shields.io/github/issues/traveloka/terraform-aws-modules-template.svg"></a> <a href="https://github.com/traveloka/terraform-aws-modules-template/pulls"><img alt="pull request" src="https://img.shields.io/github/issues-pr/traveloka/terraform-aws-modules-template.svg"></a> <a href="https://github.com/traveloka/terraform-aws-modules-template/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/traveloka/terraform-aws-modules-template.svg"></a>
+
 This repository is a guide for our terraform module (and all repository in general) to build user friendly modules that easy to understand and self explaining. We hope this can help our team nurture opensource culture and create more welcoming to contribution. This template is not strict standard and improvisation beyond this template might produce more awesome modules.
 
 **We write this module not only as an example but also as an explanation of how to implement this other modules**

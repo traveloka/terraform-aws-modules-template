@@ -6,6 +6,7 @@
 [![Issues](https://img.shields.io/github/issues/traveloka/terraform-aws-modules-template.svg)](https://github.com/traveloka/terraform-aws-modules-template/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/traveloka/terraform-aws-modules-template.svg)](https://github.com/traveloka/terraform-aws-modules-template/pulls)
 [![License](https://img.shields.io/github/license/traveloka/terraform-aws-modules-template.svg)](https://github.com/traveloka/terraform-aws-modules-template/blob/master/LICENSE)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
 
 This repository is a guide for our terraform module (and all repository in general) to build user friendly modules that easy to understand and self explaining. We hope this can help our team nurture opensource culture and create more welcoming to contribution. This template is not strict standard and improvisation beyond this template might produce more awesome modules.
 

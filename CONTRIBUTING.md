@@ -52,7 +52,7 @@ All good? Then you are ready! Here are the steps you can follow to submit a PR:
 3. Do the changes there, don't forget to execute `terraform fmt`.
 4. Commit and push the changes to your origin.
 5. Create PR from your origin branch to the upstream master.
-6. Wait for maintainer to review your code.
+6. Wait for maintainer to review your code. Go or No Go decision is one of the maintainer's resposibilities, we will make sure to explain any decision we are making :)
 
 
 ## ***Happy Contributing!***

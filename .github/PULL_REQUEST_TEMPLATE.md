@@ -34,11 +34,11 @@ FEATURES:
 
 ENHANCEMENTS:
 
-* feature: Add support for blablabla
+* feature: Add support for new version of AWS API
 
 BUG FIXES:
 
-* Prevent error from blablabla
+* Prevent error from evil bugs
 ```
 
 ***

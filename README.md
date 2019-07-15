@@ -41,7 +41,7 @@ Terraform Providers. You don't need to download or install anything. Just make s
 
 ## Dependencies
 
-This section can explain dependency that needed to run module smoothly, lets say this is `acm-certificate` module
+This section can explain dependency that needed to run module, lets say this is `acm-certificate` module
 
 This project need dependencies:
 

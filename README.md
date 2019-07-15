@@ -1,7 +1,7 @@
 # Terraform AWS Modules Template
 
 [![Terraform Version](https://img.shields.io/badge/Terraform%20Version-0.11.13-blue.svg)](https://releases.hashicorp.com/terraform/)
-[![Release](https://img.shields.io/github/tag/traveloka/terraform-aws-modules-template.svg)](https://github.com/traveloka/terraform-aws-modules-template/releases)
+[![Release](https://img.shields.io/github/release/traveloka/terraform-aws-modules-template.svg)](https://github.com/traveloka/terraform-aws-modules-template/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/traveloka/terraform-aws-modules-template.svg)](https://github.com/traveloka/terraform-aws-modules-template/commits/master)
 [![Issues](https://img.shields.io/github/issues/traveloka/terraform-aws-modules-template.svg)](https://github.com/traveloka/terraform-aws-modules-template/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/traveloka/terraform-aws-modules-template.svg)](https://github.com/traveloka/terraform-aws-modules-template/pulls)
@@ -27,7 +27,7 @@ This repository is a guide for our terraform module (and all repository in gener
 
 Before jumping to use this module, you need to know standard knowledge of markdown language syntax.
 
-[Markdown Language](https://www.markdownguide.org/basic-syntax)
+[Github Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 Because specifically it explain about terraform modules, you also need to install a few tools such as
 
@@ -52,7 +52,7 @@ Follow along this reading to learn more. This document already explain 2 top que
 
 Standard terraform modules have an example and you can write this below in quick started section, e.g:
 
-Copy folder example, change values in `/example/locals.tf`, after that run this scripts
+Quick check the `variable.tf` to learn more about what you can customize, we state default value but it might not fulfill your expectation. Copy folder example, change values in `/example/locals.tf`, and After that run this scripts
 
 ```
 cd /<dir>                               # Go to copied example folder
@@ -73,57 +73,6 @@ This will add
 - Route 53
 - Security Group
 - Security Group Rule
-
-## Variables
-
-Every terraform modules have variable and `README` is a good place to explain and help other developers not opening the `variables.tf`. e.g:
-
-### Defaults
-
-```
-variable "application" {
-  default     = "java-8"
-  description = "Will be used in resources Application tag"
-  type        = "string"
-}
-variable "asg_health_check_type" {
-  default     = "EC2"
-  description = "ASG health check type ELB or EC2"
-  type        = "string"
-}
-
-```
-
-### Required
-
-```
-variable "asg_max_capacity" {
-  description = "The created ASG will have this number of instances at maximum"
-  type        = "string"
-}
-
-variable "asg_min_capacity" {
-  description = "The minimum size of the auto scaling group"
-  type        = "string"
-}
-
-```
-
-### Optional
-
-```
-variable "alb_access_logs" {
-  default     = ""
-  description = "Predefined Load Balancer Access Logs"
-  type        = "string"
-}
-
-variable "lbint_additional_security_groups" {
-  default     = []
-  description = "Internal load balancer additional security groups"
-  type        = "list"
-}
-```
 
 ## Dependencies
 
@@ -161,6 +110,7 @@ For question, issue, and pull request you can contact these awesome people
 
 - [Rafi Kurnia](https://github.com/rafikurnia) (**Author**)
 - [Rukaan Adha](https://github.com/Rukaan)
+- [Muhammad Panji](https://github.com/sumodirjo)
 
 ## License
 

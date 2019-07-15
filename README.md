@@ -39,6 +39,15 @@ Terraform Providers. You don't need to download or install anything. Just make s
 - Provider [aws](https://www.terraform.io/docs/providers/aws/index.html) version `1.60.0`. We are not recommending usage of `2.0.0` and above.
 - Provider [random](https://www.terraform.io/docs/providers/random/index.html) version `1.0.0`.
 
+## Dependencies
+
+This section can explain dependency that needed to run module smoothly, lets say this is `acm-certificate` module
+
+This project need dependencies:
+
+- `vpc` module applied
+- `public-route53-zone` module applied
+
 ## Quick Start
 
 After module's code set and go, complete it with well written documentation. Start with a user friendly `README`. What is the content ? At least it explain.
@@ -73,15 +82,6 @@ This will add
 - Route 53
 - Security Group
 - Security Group Rule
-
-## Dependencies
-
-This section can explain dependency that needed to run module smoothly, lets say this is `acm-certificate` module
-
-This project need dependencies:
-
-- `vpc` module applied
-- `public-route53-zone` module applied
 
 ## Versioning
 

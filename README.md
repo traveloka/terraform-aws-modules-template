@@ -16,7 +16,6 @@ This repository is a guide for our terraform module (and all repository in gener
 
 - [Prerequisites](#Prerequisites)
 - [Quick Start](#Quick-Start)
-- [Variables](#Variables)
 - [Dependencies](#Dependencies)
 - [Contributing](#Contributing)
 - [Contributor](#Contributor)
@@ -33,6 +32,7 @@ Because specifically it explain about terraform modules, you also need to instal
 
 - [Terraform](https://releases.hashicorp.com/terraform/). To this date, I recommend at latest version `0.11.x` and not recommend `0.12.x` or above
 - [awsudo](https://github.com/makethunder/awsudo) to assume role in AWS
+- [Visual Studio Code](https://code.visualstudio.com/download) is the best editor for the [Terraform Extension](https://marketplace.visualstudio.com/items?itemName=mauve.terraform). After install activate auto format by go to`File`→`Preferences`→`Settings`. Choose`Text Editor`→`Formatting`and check`Format on Save`
 
 Terraform Providers. You don't need to download or install anything. Just make sure this is the version you use in code if it is used
 
@@ -114,7 +114,7 @@ For question, issue, and pull request you can contact these awesome people
 
 ## License
 
-Last but not least, add License to modules. Most of our repository is licensed under MIT license - see the `LICENSE` file for details
+Last but not least, add License to modules. Most of our repository is licensed under Apache License 2.0 - see the `LICENSE` file for details
 
 ## Acknowledgments
 

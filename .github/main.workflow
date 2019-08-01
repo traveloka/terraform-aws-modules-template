@@ -5,7 +5,7 @@ workflow "Add new pull requests to projects" {
 
 action "adding the pull request to a project" {
   uses = "alex-page/add-new-pulls-project@v0.0.4"
-  args = ["Curated Terraform Modules", "To do"]
+  args = ["Terraform Modules Template", "To do"]
   secrets = ["GITHUB_TOKEN", "GH_PAT"]
 }
 
@@ -16,6 +16,6 @@ workflow "Add new issues to projects" {
 
 action "adding the issue to a project" {
   uses = "alex-page/add-new-issue-project@v0.0.4"
-  args = ["Curated Terraform Modules", "To do"]
+  args = ["Terraform Modules Template", "To do"]
   secrets = ["GITHUB_TOKEN", "GH_PAT"]
 }
